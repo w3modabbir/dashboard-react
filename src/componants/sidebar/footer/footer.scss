@@ -1,0 +1,20 @@
+@import "../../../../sass/common/common.scss";
+@import "../../../../sass/common/variables.scss";
+
+// footer part satar here 
+.footer{
+    padding: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   p{
+    font-family: $montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    span{
+        text-transform: capitalize;
+        color: #FF4500;
+    }
+   }
+}
+// footer part end here 

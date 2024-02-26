@@ -1,8 +1,17 @@
 import React from 'react'
-
+import Image from '../../Image'
+import LogoImg from '../../../assets/images/logo.png'
+import './footer.scss'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <div>
+        <Image source={LogoImg} alt="not found"/>
+      </div>
+      <div>
+        <p>Copyright © 2024 <span>Modabbir</span>. Designed with  by <span>Modabbir</span> All rights reserved</p>
+      </div>
+    </div>
   )
 }
 
