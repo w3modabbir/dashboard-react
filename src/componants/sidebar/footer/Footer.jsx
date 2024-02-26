@@ -6,9 +6,6 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div>
-        <Image source={LogoImg} alt="not found"/>
-      </div>
-      <div>
         <p>Copyright © 2024 <span>Modabbir</span>. Designed with  by <span>Modabbir</span> All rights reserved</p>
       </div>
     </div>
