@@ -26,18 +26,23 @@
                 font-family: $montserrat;
                 font-weight: 500;
                 text-transform: capitalize;
-
+                font-size: 18px;
             }
             &:hover{
                 background-color: $sendarybg;
             }
-        }
+            img{
+              width: 25px;
+              height: 25px;
+              object-fit: cover;
+            }
+      }
       .title{
-        font-size: 16px;
+        font-size: 22px;
         font-family: $montserrat;
         font-weight: 400;
         text-transform: uppercase;
-        color: $primarycolor;
+        color: #1E90FF;
       }
     }
 }
