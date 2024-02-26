@@ -1,0 +1,44 @@
+@import "../../../../sass/common/common.scss";
+@import "../../../../sass/common/variables.scss";
+
+// menu part start here 
+.menu_main{
+    .menu_item{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+        .list_item{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            color: #fff;
+            padding: 10px;
+            transition: all linear .3s;
+            -webkit-transition: all linear .3s;
+            -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+            -o-transition: all linear .3s;
+            border-radius: 5px;
+            h3{
+
+                color: #fff;
+                font-family: $montserrat;
+                font-weight: 500;
+                text-transform: capitalize;
+
+            }
+            &:hover{
+                background-color: $sendarybg;
+            }
+        }
+      .title{
+        font-size: 16px;
+        font-family: $montserrat;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $primarycolor;
+      }
+    }
+}
+// menu part end here 
