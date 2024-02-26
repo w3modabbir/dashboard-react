@@ -1,0 +1,64 @@
+@import "../../../../sass/common/common.scss";
+@import "../../../../sass/common/variables.scss";
+
+// navbar part start here 
+.navbar_main{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar_icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        svg{
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+        }
+        .notification{
+            position: relative;
+            span{
+                width: 20px;
+                height: 20px;
+                background-color: #FF4500;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                color: #fff;
+                position: absolute;
+                top: -10px;
+                right: -8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+            }
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            span: {
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: $inter;
+            }
+            img{
+                width: 25px;
+                height: 25px;
+                object-fit: cover;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+}
+        }
+    }
+}
+// navbar part end here 
